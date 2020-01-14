@@ -4,11 +4,10 @@ public class Cargo {
 
 	//Atributo
 	private Integer codigo;
-	private String descricao;
-	private String funcao; // o que este cargo faz.
+	private String  descricao;
+	private String  funcao; //O que este cargo faz.
 	
 	//Getter and Setter
-
 	public Integer getCodigo() {
 		return codigo;
 	}
@@ -29,5 +28,7 @@ public class Cargo {
 	public void setFuncao(String funcao) {
 		this.funcao = funcao;
 	}
+	
+	
 	
 }

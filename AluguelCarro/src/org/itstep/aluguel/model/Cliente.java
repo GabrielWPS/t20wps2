@@ -4,20 +4,17 @@ import java.util.Date;
 
 public class Cliente {
 
-	private PessoaFisica pessoaFisica;
+	private PessoaFisica   pessoaFisica;
 	private PessoaJuridica pessoaJuridica;
-	private Date dtCadastro;
+	private Date           dtCadastro;
 	
-	
-
-	//Getter and Setter
 	public PessoaFisica getPessoaFisica() {
 		return pessoaFisica;
 	}
 	public void setPessoaFisica(PessoaFisica pessoaFisica) {
 		this.pessoaFisica = pessoaFisica;
 	}
-
+	
 	public PessoaJuridica getPessoaJuridica() {
 		return pessoaJuridica;
 	}
@@ -31,7 +28,6 @@ public class Cliente {
 	public void setDtCadastro(Date dtCadastro) {
 		this.dtCadastro = dtCadastro;
 	}
-	
 	
 	
 	

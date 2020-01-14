@@ -3,10 +3,8 @@ package org.itstep.aluguel.model;
 public class TabelaPreco {
 
 	private Integer codigo;
-	private String nome ;
-	private double valorDiaria;
-	
-	//Getter and Setter
+	private String nome;
+	private Double valorDiaria;
 	
 	public Integer getCodigo() {
 		return codigo;
@@ -14,23 +12,19 @@ public class TabelaPreco {
 	public void setCodigo(Integer codigo) {
 		this.codigo = codigo;
 	}
-
+	
 	public String getNome() {
 		return nome;
 	}
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
-
-	public double getValorDiaria() {
+	
+	public Double getValorDiaria() {
 		return valorDiaria;
 	}
-	public void setValorDiaria(double valorDiaria) {
+	public void setValorDiaria(Double valorDiaria) {
 		this.valorDiaria = valorDiaria;
 	}
-
-
-
-
-
+	
 }

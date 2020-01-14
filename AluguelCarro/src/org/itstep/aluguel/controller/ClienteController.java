@@ -1,7 +1,5 @@
 package org.itstep.aluguel.controller;
 
-import java.sql.SQLException;
-
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
@@ -19,16 +17,17 @@ public class ClienteController {
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
 	@Path("{codigo}")
-	public Cliente buscaCliente(@Context HttpHeaders  httpHeaders,
-								@PathParam("codigo") Integer codigo) throws SQLException		{
-	
+	public Cliente buscaCliente(@Context HttpHeaders httpHeaders,
+			                  @PathParam("codigo") Integer codigo) {
 		
 		Cliente cliente = new Cliente();
 		ClienteFacade clienteFacade = new ClienteFacade();
 		
 		cliente = clienteFacade.buscaCliente(codigo);
-		
+				
 		return cliente;
+		
 	}
-
+	
+	
 }

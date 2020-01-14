@@ -4,14 +4,14 @@ import java.util.Date;
 
 public class DocumentoPessoaFisica {
 	
-	//Atributos
-	private String  cpf;
-	private String  rg;
-	private Date    dtEmissaoRG;
-	private String  orgaoEmissor;
-	private String  habilitacao;
-
+	//Atributo
+	private String cpf;
+	private String rg;
+	private Date   dtEmissaoRG;
+	private String orgaoEmissor;
+	private String habilitacao;
 	
+	//Getter and Setter
 	public String getCpf() {
 		return cpf;
 	}
@@ -49,5 +49,5 @@ public class DocumentoPessoaFisica {
 	
 	
 	
-
+	
 }

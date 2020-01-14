@@ -2,11 +2,11 @@ package org.itstep.aluguel.dao;
 
 import java.sql.*;
 
-public class jdbcDAOFactory {
+public class JdbcDAOFactory {
 	
 	private Connection connection;
 	
-	public jdbcDAOFactory() throws SQLException{
+	public JdbcDAOFactory() throws SQLException{
 		
 		try {
 			
